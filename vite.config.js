@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: false
-  }
+  },
+  base:'/Proyecto-LibroMAM/'
 })
 
