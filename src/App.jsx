@@ -1,12 +1,13 @@
 import './App.scss'
-import TituloLogo from './components/TituloLogo/TituloLogo';
 import Libro from './components/Libro/Libro'
+import TituloLogo from './components/TituloLogo/TituloLogo';
 
 function App() {
   return (
+    
     <div className='conteiner-app'>
       <section className='seccion-presentacion'>
-
+      
         <header>
           <img src='images/sombrero.png' className='imgSombrero' />
           <img src='images/pulsera.png' className='imgPulsera' />
@@ -26,32 +27,24 @@ function App() {
           <img src='images/brujula.png' className='imgBrujula' />
           <img src='images/camara.png' className='imgCamara' />
           <img src='images/binoculares.png' className='imgBinoculares' />
-          
+
         </footer>
       </section>
       <section className='seccion-libro '>
+        <header>
+          
+        </header>
+        <article>
         <Libro />
+        </article>
+        <footer>
+          <img src='images/mate.png' className='imgMate' />
+        </footer>
+
       </section>
 
 
-      {/*
-      
-      
-      
-      <section>
-        <TituloLogo />
-        
-        <img src='images/mapa.png' className='imgMap' />
-        <img src='images/brujula.png' className='imgBrujula' />
-        <img src='images/camara.png' className='imgCamara' />
-        <img src='images/birome.png' className='imgBirome' />
-        <img src='images/binoculares.png' className='imgBinoculares' />
-        <img src='images/planta1.png' className='imgPlanta1' />
-      </section>
-      <section>
-        <img src='images/mate.png' className='imgMate' />
-      </section>
-      */}
+
     </div>
   )
 }

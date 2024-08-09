@@ -41,7 +41,7 @@
 }
 
 .page.cover {
-  background: #f3d662; /* Color de la portada */
+  background: #282000; /* Color de la portada */
   padding: 0;
   border: 0;
   width: 570px;
@@ -54,17 +54,15 @@
 }
 
 .container-libro {
-  display: relative;
-  
-  width: 100%;
-  max-width: 1200px;
-  height: 1100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+  width: 1100px;
+  height: 730px;
   z-index: 16;
+}
+
+@media only screen and (max-width: 1150px) {
+  .container-libro {
+    width: 550px;
+  }
 }
 .estiloslibro {
   z-index: 16;

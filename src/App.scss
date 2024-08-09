@@ -169,32 +169,46 @@ body {
       
     }
 
-
-    .imgMate {
-      position: absolute;
-      width: 300px;
-      transform: rotate(0deg);
-      z-index: 3;
-      filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.9));
-      left: 30px;
-      bottom: 50px;
-
-    }
-
-
-
-
   }
 
   .seccion-libro {
-   
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: start;
-
-
     width: 100vw;
-    height: 2000px;
+ 
+    
+
+    header {
+      //background: rgba(0, 128, 0, 0.636);
+      width: 100%;
+      height: 27vw;
+    }
+    article {
+      //background: rgba(255, 0, 0, 0.248);
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     
+    }
+    footer {
+        //background: rgba(255, 255, 0, 0.337);
+        width: 100%;
+        height: 400px;
+        position: relative; 
+         
+        .imgMate {
+          position: absolute;
+          width: 2;
+          transform: rotate(0deg);
+          z-index: 3;
+          filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.9));
+          left: 30px;
+          bottom: 50px;
+    
+        }
+    }
   }
 }
