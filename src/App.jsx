@@ -1,6 +1,6 @@
 import './App.scss'
 import TituloLogo from './components/TituloLogo/TituloLogo';
-//import Libro from './components/Libro/Libro'
+import Libro from './components/Libro/Libro'
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
         </footer>
       </section>
       <section className='seccion-libro '>
-        sss
+        <Libro />
       </section>
 
 

@@ -187,14 +187,14 @@ body {
   }
 
   .seccion-libro {
-    position: relative;
+   
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    align-items: end;
+    justify-content: center;
+    align-items: start;
 
-    --background: rgba(0, 8, 255, 0.193);
+
     width: 100vw;
-    height: 100vh;
+    height: 2000px;
   }
 }
