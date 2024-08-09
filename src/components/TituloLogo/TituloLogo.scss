@@ -1,0 +1,41 @@
+.container-titulo {
+  background: rgba(255, 0, 0, 0);
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  background-image: url("images/fondoTitulo.png");
+  background-size: 100%;
+  //scale: 1.5;
+ //transform: rotate(15deg);
+
+  h1 {
+    font-family: 'DaftBrush';
+    font-size: 70pt;
+    color: rgba(255, 255, 255, 0.703);
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0.0em; 
+    line-height: 1;
+    font-weight: 400;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+  }
+
+  h2 {
+    font-family: 'DaftBrush';
+    font-size: 30pt;
+    color: rgba(174, 142, 0, 0.821);
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0.05em; 
+    line-height: 0.5;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0,1);
+   
+  }
+
+
+
+
+}
