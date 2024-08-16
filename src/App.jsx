@@ -39,6 +39,8 @@ function App() {
         </article>
         <footer>
           <img src='images/mate.png' className='imgMate' />
+          <span>©Copyright 2024 - DIARIO DE UN CAMINO - M.A.G.</span>
+          <img src='images/termo.png' className='imgTermo' />
         </footer>
 
       </section>
