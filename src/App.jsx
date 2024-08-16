@@ -31,13 +31,13 @@ function App() {
         </footer>
       </section>
       <section className='seccion-libro '>
-        <header>
+        <header className='seccion-libro-header'>
           
         </header>
-        <article>
+        <article className='seccion-libro-article'>
         <Libro />
         </article>
-        <footer>
+        <footer className='seccion-libro-footer'>
           <img src='images/mate.png' className='imgMate' />
           <span>©Copyright 2024 - DIARIO DE UN CAMINO - M.A.G.</span>
           <img src='images/termo.png' className='imgTermo' />

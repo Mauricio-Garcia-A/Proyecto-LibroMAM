@@ -186,13 +186,13 @@ body {
 
 
 
-    header {
+    .seccion-libro-header {
       //background: rgba(0, 128, 0, 0.636);
       width: 100%;
-      height: 27vw;
+      height: 350px;
     }
 
-    article {
+    .seccion-libro-article {
       //background: rgba(255, 0, 0, 0.248);
       width: 100%;
       display: flex;
@@ -201,7 +201,7 @@ body {
 
     }
 
-    footer {
+    .seccion-libro-footer {
       //background: rgba(255, 255, 0, 0.337);
       width: 100%;
       height: 300px;
@@ -210,6 +210,7 @@ body {
       flex-direction: row;
       align-items: end;
       justify-content: center;
+      transition: all 0.5s ease;
 
       span {
         color: rgba(255, 255, 255, 0.637);
@@ -229,6 +230,7 @@ body {
         width: 25%;
 
       }
+
       .imgTermo {
         position: absolute;
         transform: rotate(-20deg);
@@ -240,5 +242,40 @@ body {
 
       }
     }
+
   }
+}
+
+@media only screen and (max-width: 1150px) {
+  .seccion-libro-header {
+    //background: rgb(13, 255, 0);
+    height: 25vw ;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .seccion-libro-header {
+    //background: red;
+    height: 25vw !important;
+  }
+  .seccion-libro-footer {
+    height: 200px !important;
+  }
+
+  .seccion-libro-header {
+    height: 200px;
+
+  }
+}
+@media only screen and (max-width: 660px) {
+  .seccion-libro-header {
+    //background: green;
+    height: 130px !important;
+  }
+  .seccion-libro-footer {
+    height: 160px !important;
+    .imgMate {
+      bottom: 40px;
+    }
+  }
+
 }
