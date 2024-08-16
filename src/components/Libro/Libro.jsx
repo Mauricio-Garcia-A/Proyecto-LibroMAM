@@ -2,7 +2,11 @@ import { useRef } from 'react';
 
 import HTMLFlipBook from "react-pageflip";
 import './Libro.scss'
+import TituloLogo from '../TituloLogo/TituloLogo';
+import IconArrow from '../IconArrow/IconArrow';
 
+import data from '../../utils/Capitulo1.json'
+import Pagina from './Pagina';
 
 export default function Libro() {
   const book = useRef(null);
@@ -14,6 +18,9 @@ export default function Libro() {
   const goToNextPage = () => {
     book.current.pageFlip().flipNext();
   };
+
+  const capitulo1 = data.chapters[0]
+  const paginas = data.chapters[0].pages
 
   return (
     <>
@@ -34,19 +41,41 @@ export default function Libro() {
           className="estiloslibro"
         >
           <div className="page cover">
-          <img src='images/libro-portada.png' className="imgProtada" />
+            <img src='images/libro-portada.png' className="imgProtada" />
           </div>
-          <div className="contraPortada">
+          <div className="page cover">
+            <img src='images/libro-contra-tapa.png' className="imgProtada" />
+          </div>
+          <div className="page">
+
+            <div className='inverted'>
+              <TituloLogo />
+            </div>
 
           </div>
           <div className="page">
-            <h1>Página 1</h1>
-            <p>Contenido de la página 1</p>
+            <p>Introduccion del libro</p>
+            <p>Indice del libro</p>
+
           </div>
           <div className="page">
-            <h1>Página 2</h1>
-            <p>Contenido de la página 2</p>
+            <Pagina
+              titulo=''
+              num='3'
+              parrafos={[capitulo1.chapterNumber, capitulo1.chapterTitle, capitulo1.chapterSubtitle]}
+            />
           </div>
+
+          {paginas.map((page, index) => (
+            <div key={index + 4} className="page">
+              <Pagina
+                titulo={page.title}
+                num={index + 4}
+                parrafos={page.paragraphs}
+              />
+            </div>
+          ))}
+
           <div className="page">
             <h1>Página 3</h1>
             <p>Contenido de la página 3</p>
@@ -71,17 +100,23 @@ export default function Libro() {
             <h1>Página 8</h1>
             <p>Contenido de la página 8</p>
           </div>
+
+
           <div className="page cover">
-            <p>Contenido de la página 8</p>
-          </div><div className="page">
-            <p>tapa trasera
-            </p>
+            <img src='images/libro-portada.png' className="imgProtada" />
+          </div>
+          <div className="page cover">
+            <img src='images/libro-contra-tapa.png' className="imgProtada" />
           </div>
         </HTMLFlipBook>
       </div>
       <div className="button-container">
-        <button onClick={goToPreviousPage}>Previous Page</button>
-        <button onClick={goToNextPage}>Next Page</button>
+        <button onClick={goToPreviousPage}>
+          <IconArrow typeLeft={true} />
+        </button>
+        <button onClick={goToNextPage}>
+          <IconArrow typeLeft={false} />
+        </button>
       </div>
 
     </>

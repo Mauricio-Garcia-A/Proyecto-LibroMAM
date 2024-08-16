@@ -1,0 +1,56 @@
+{
+  "chapters": [
+    {
+      "chapterNumber": "Capítulo 1",
+      "chapterTitle": "RN40, el inicio de un sueño",
+      "chapterSubtitle": "No se puede iniciar un camino sin un sueño, por eso esta historia",
+      "imagesChapter": [
+        {
+          "url": "/images/img-prueba.png",
+          "alt": "img-prueba"
+        }
+      ],
+      "pages": [
+        {
+          "title": "RN40",
+          "paragraphs": [
+            "Voy a contarles una historia, una que hoy vino a la memoria, y aunque ocurrió hace ya un tiempo atrás, cada momento sigue aún presente, muy vivo en el subconsciente, disfrazado de recuerdo y grabado en la mente.",
+            "Me habían hablado de “Un Camino” que zigzaguea entre montañas, que con sus curvas unía el Celeste de los cielos del Norte, con el blanco de la nieve cordillerana al reflejo del gigantesco sol, hasta hundirse en el eterno Azul de los mares del Sur."
+          ],
+          "images": [
+            {
+              "url": "/images/img-prueba.png",
+              "alt": "img-prueba"
+            }
+          ]
+        },
+        {
+          "title": "RN40",
+          "paragraphs": [
+            "Un camino con más historias que kilómetros, que recorre los rincones de mi patria desde La Quiaca hasta fin del mundo, repleto de paisajes que invitan a la imaginación en cada paso. Un camino único que te hace sentir que sos parte de un todo, aun estando en medio de la nada. Un camino sinuoso repleto de leyendas, que al recorrerlo te une en cuerpo y alma aún más a esta tierra, haciéndote uno con la Pachamama.",
+            "Una mítica ruta, cargada de misterios, de enseñanzas, de secretos. Un camino de retrospección, muy difíciles de recorrer, una emblemática y profunda senda que te lleva hasta los rincones más recónditos de tu alma, un embrujo largo del desierto hasta el alba."
+          ],
+          "images": [
+            {
+              "url": "/images/img-prueba.png",
+              "alt": "img-prueba"
+            }
+          ]
+        },
+        {
+          "title": "RN40",
+          "paragraphs": [
+            "Una Ruta con 40 secretos y más de cinco mil kilómetros que te invitan a recorrerlos, y a vivir un viaje que va más allá a del tiempo y la geografía, conectando el pasado y el presente para llegar a ser uno solo con el camino.",
+            "Una ruta desafiante, con una vasta diversidad de paisajes, climas y culturas, que forjan una travesía eterna en el corazón de cualquier viajero que se atreva a recorrerla. Una ruta que une el cielo con la tierra, las altas cumbres con las profundidades del mar, en un camino sin principio ni final."
+          ],
+          "images": [
+            {
+              "url": "/images/img-prueba.png",
+              "alt": "img-prueba"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
