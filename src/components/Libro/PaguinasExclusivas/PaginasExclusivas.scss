@@ -1,0 +1,77 @@
+.conteiner-paginaPresentacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  .container-titulo-libro {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    user-select: none;
+
+
+    h1 {
+      font-family: 'DaftBrush';
+      font-size: 70pt;
+      color: rgba(0, 0, 0, 0.542);
+      padding: 0;
+      margin: 0;
+      letter-spacing: 0.0em;
+      line-height: 1;
+      font-weight: 400;
+      //text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
+
+      white-space: nowrap;
+
+    }
+
+    h2 {
+      font-family: 'DaftBrush';
+      font-size: 30pt;
+      color: rgba(174, 142, 0, 0.397);
+      padding: 0;
+      margin: 0;
+      letter-spacing: 0.05em;
+      line-height: 0.5;
+      //text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+
+    }
+  }
+}
+
+/*--------- PaginaIndice --------------*/
+
+.container-paginaIndice {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .container-indice {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .encabezado-indice {
+      border-bottom: 1px solid #4827045f;
+    }
+
+    .indice-item {
+      width: 430px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .puntos {
+        flex-grow: 1;
+        border-bottom: 1px dotted #888;
+        margin: 10px;
+      }
+
+
+    }
+  }
+}

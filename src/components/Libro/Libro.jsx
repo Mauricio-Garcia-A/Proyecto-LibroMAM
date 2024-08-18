@@ -2,11 +2,12 @@ import { useRef } from 'react';
 
 import HTMLFlipBook from "react-pageflip";
 import './Libro.scss'
-import TituloLogo from '../TituloLogo/TituloLogo';
 import IconArrow from '../IconArrow/IconArrow';
 
 import data from '../../utils/Capitulo1.json'
 import Pagina from './Pagina';
+import PaginaPresentacion from './PaguinasExclusivas/PaginaPresentacion';
+import PaginaIndice from './PaguinasExclusivas/PaginaIndice';
 
 export default function Libro() {
   const book = useRef(null);
@@ -47,21 +48,30 @@ export default function Libro() {
             <img src='images/libro-contra-tapa.png' className="imgProtada" />
           </div>
           <div className="page">
-
-            <div className='inverted'>
-              <TituloLogo />
-            </div>
-
-          </div>
-          <div className="page">
-            <p>Introduccion del libro</p>
-            <p>Indice del libro</p>
-
+            <PaginaPresentacion />
           </div>
           <div className="page">
             <Pagina
               titulo=''
               num='3'
+              parrafos={['Introduccion del libro']}
+            />
+          </div>
+          <div className="page">
+           <PaginaIndice />
+          </div>
+          <div className="page">
+            <Pagina
+              titulo=''
+              num='5'
+              parrafos={['']}
+            />
+          </div>
+
+          <div className="page">
+            <Pagina
+              titulo=''
+              num='6'
               parrafos={[capitulo1.chapterNumber, capitulo1.chapterTitle, capitulo1.chapterSubtitle]}
             />
           </div>
@@ -77,30 +87,11 @@ export default function Libro() {
           ))}
 
           <div className="page">
-            <h1>Página 3</h1>
-            <p>Contenido de la página 3</p>
+            <h1>FIN</h1>
           </div>
           <div className="page">
-            <h1>Página 4</h1>
-            <p>Contenido de la página 4</p>
+            <h1>FIN</h1>
           </div>
-          <div className="page">
-            <h1>Página 5</h1>
-            <p>Contenido de la página 5</p>
-          </div>
-          <div className="page">
-            <h1>Página 6</h1>
-            <p>Contenido de la página 6</p>
-          </div>
-          <div className="page">
-            <h1>Página 7</h1>
-            <p>Contenido de la página 7</p>
-          </div>
-          <div className="page">
-            <h1>Página 8</h1>
-            <p>Contenido de la página 8</p>
-          </div>
-
 
           <div className="page cover">
             <img src='images/libro-portada.png' className="imgProtada" />
