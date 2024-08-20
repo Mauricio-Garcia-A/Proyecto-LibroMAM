@@ -42,7 +42,7 @@ export default function Libro() {
           className="estiloslibro"
         >
           <div className="page cover">
-            <img src='images/libro-portada2.png' className="imgProtada" />
+            <img src='images/libro-portada-v1.png' className="imgProtada" />
           </div>
           <div className="page cover">
             <img src='images/libro-contra-tapa.png' className="imgProtada" />
