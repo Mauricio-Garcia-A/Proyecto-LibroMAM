@@ -16,7 +16,7 @@ export default function PaginaPresentacion() {
         <span/> <span/>
       </article>
       <footer>
-        <p>M.A.G</p>
+        <p>M.A.M</p>
       </footer>
     </div>
   )
