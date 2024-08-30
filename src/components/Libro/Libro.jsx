@@ -97,7 +97,7 @@ export default function Libro() {
             <img src='images/PortadaFinal-v1.png' className="imgProtada" />
           </div>
           <div className="page cover">
-            <img src='images/libro-contra-tapa.png' className="imgProtada" />
+            <img src='images/ContratapaFinal-v1.png' className="imgProtada" />
           </div>
         </HTMLFlipBook>
       </div>
