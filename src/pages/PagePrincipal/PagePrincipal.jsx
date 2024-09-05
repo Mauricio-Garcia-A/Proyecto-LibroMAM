@@ -1,6 +1,7 @@
 import './PagePrincipal.scss'
 import Libro from '../../components/Libro/Libro'
 import TituloLogo from '../../components/TituloLogo/TituloLogo';
+import IconArrowsButton from '../../components/IconArrowsButton/IconArrowsButton'
 
 export default function PagePrincipal() {
   return (
@@ -26,7 +27,15 @@ export default function PagePrincipal() {
           <img src='images/webp/brujula-v1.webp' className='imgBrujula' />
           <img src='images/webp/camara-v1.webp' className='imgCamara' />
           <img src='images/webp/binoculares-v1.webp' className='imgBinoculares' />
-
+          <div className='container-button-principal-page'>
+            <div className='button-principal-page'>
+              <p>
+                IR AL DIARIO
+              </p>
+              <IconArrowsButton  />
+            </div>  
+          </div>
+          
         </footer>
       </section>
       <section className='seccion-libro '>
