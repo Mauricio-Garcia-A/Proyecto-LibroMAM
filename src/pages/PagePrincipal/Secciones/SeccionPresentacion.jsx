@@ -3,7 +3,8 @@ import TituloLogo from '../../../components/TituloLogo/TituloLogo'
 import './EstilosSecciones.scss'
 
 
-export default function SeccionPresentacion() {
+// eslint-disable-next-line react/prop-types
+export default function SeccionPresentacion({handleScroll}) {
   return (
       <section className='seccion-presentacion'>
 
@@ -27,7 +28,7 @@ export default function SeccionPresentacion() {
           <img src='images/webp/camara-v1.webp' className='imgCamara' />
           <img src='images/webp/binoculares-v1.webp' className='imgBinoculares' />
           <div className='container-button-principal-page'>
-            <div className='button-principal-page'>
+            <div className='button-principal-page' onClick={() => handleScroll()}>
               <p>
                 IR AL DIARIO
               </p>

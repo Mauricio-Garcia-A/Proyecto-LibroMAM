@@ -425,7 +425,7 @@
   .seccion-libro-header {
     //background: rgba(0, 128, 0, 0.636);
     width: 100%;
-    height: 350px;
+    height: 300px;
   }
 
   .seccion-libro-article {
@@ -434,6 +434,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 50px;
 
   }
 
