@@ -4,6 +4,9 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  .ocultar {
+    filter: blur(3px);
+  }
 
   header {
     max-height: 25px;
@@ -33,6 +36,11 @@
     //color: rgba(255, 255, 255, 0.637);
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
+
+    p {
+      font-family: GloriaHallelujah;
+      //font-size: 15pt;
+    }
     
   }
 

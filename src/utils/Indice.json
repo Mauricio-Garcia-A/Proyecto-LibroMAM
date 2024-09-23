@@ -3,12 +3,82 @@
     {
       "titulo": "RN40: El inicio de un sueño",
       "numero": 1,
-      "pagina": 6
+      "pagina": 7
     },
     {
       "titulo": "JUJ: El desentierro del diablo",
       "numero": 2,
       "pagina": 35
+    },
+    {
+      "titulo": "SALT: La Hermosa pero orcura",
+      "numero": 3,
+      "pagina": 56
+    },
+    {
+      "titulo": "CTMK: La tierra de los volcanes",
+      "numero": 4,
+      "pagina": 72
+    },
+    {
+      "titulo": "TUQ: El valle entre las nuves",
+      "numero": 5,
+      "pagina": 94
+    },
+    {
+      "titulo": "LR: La montaña roja",
+      "numero": 6,
+      "pagina": 135
+    },
+    {
+      "titulo": "SJ: Un pedacito de la luna en la tierra",
+      "numero": 7,
+      "pagina": 158
+    },
+    {
+      "titulo": "MDZ: La tierra del vino",
+      "numero": 8,
+      "pagina": 181
+    },
+    {
+      "titulo": "NQN: Capicua",
+      "numero": 9,
+      "pagina": 203
+    },
+    {
+      "titulo": "SL: La noche a plena luz del dia",
+      "numero": 10,
+      "pagina": 229
+    },
+    {
+      "titulo": "MSN: La garganta del diablo ",
+      "numero": 11,
+      "pagina": 243
+    },
+    {
+      "titulo": "RN: El misterio de los lagos",
+      "numero": 12,
+      "pagina": 258
+    },
+    {
+      "titulo": "CHT: Paraiso azul",
+      "numero": 13,
+      "pagina": 269
+    },
+    {
+      "titulo": "SF: La tierra del vino",
+      "numero": 14,
+      "pagina": 291
+    },
+    {
+      "titulo": "ER: Carnaval toda la vida",
+      "numero": 15,
+      "pagina": 305
+    },
+    {
+      "titulo": "BA: Dx-LP",
+      "numero": 16,
+      "pagina": 318
     }
   ]
 }

@@ -11,7 +11,7 @@ export default function Pagina(props) {
       </header>
       <article>
         {props.parrafos.map((paragraph, pIndex) => (
-          <p key={pIndex}>{paragraph}</p>
+          <p key={pIndex} className='ocultar'>{paragraph}</p>
         ))}
       </article>
       <footer>

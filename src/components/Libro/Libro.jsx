@@ -8,6 +8,10 @@ import data from '../../utils/Capitulo1.json'
 import Pagina from './Pagina';
 import PaginaPresentacion from './PaguinasExclusivas/PaginaPresentacion';
 import PaginaIndice from './PaguinasExclusivas/PaginaIndice';
+import PaginaPresentacionCapitulo from './PaguinasExclusivas/PaginaPresentacionCapitulo';
+import PaginaIntroduccion from './PaguinasExclusivas/PaginaIntroduccion';
+import PaginaAgradecimientos from './PaguinasExclusivas/PaginaAgradecimientos';
+import PaginaFinal from './PaguinasExclusivas/PaginaFinal';
 
 export default function Libro() {
   const book = useRef(null);
@@ -51,46 +55,46 @@ export default function Libro() {
             <PaginaPresentacion />
           </div>
           <div className="page">
-            <Pagina
-              titulo=''
-              num='3'
-              parrafos={['Introduccion del libro']}
-            />
+            <PaginaAgradecimientos />
           </div>
           <div className="page">
-           <PaginaIndice />
+            <PaginaIntroduccion tapa={true} />
           </div>
           <div className="page">
-            <Pagina
-              titulo=''
-              num='5'
-              parrafos={['']}
-            />
+            <PaginaIntroduccion tapa={false} />
+          </div>
+          <div className="page">
+            <PaginaIndice tapa={true} />
+          </div>
+          <div className="page">
+            <PaginaIndice tapa={false} />
           </div>
 
           <div className="page">
-            <Pagina
-              titulo=''
-              num='6'
-              parrafos={[capitulo1.chapterNumber, capitulo1.chapterTitle, capitulo1.chapterSubtitle]}
+            <PaginaPresentacionCapitulo
+              num='7'
+              numCap={capitulo1.chapterNumber}
+              tituloCap={capitulo1.chapterTitle}
+              subtituloCap={capitulo1.chapterSubtitle}
+              imageBG="/Proyecto-LibroMAM/images/bg-cap1.png"
             />
           </div>
 
           {paginas.map((page, index) => (
-            <div key={index + 4} className="page">
+            <div key={index + 8} className="page">
               <Pagina
                 titulo={page.title}
-                num={index + 4}
+                num={index + 8}
                 parrafos={page.paragraphs}
               />
             </div>
           ))}
 
           <div className="page">
-            <h1>FIN</h1>
+          <PaginaFinal tapa={true} />
           </div>
           <div className="page">
-            <h1>FIN</h1>
+          <PaginaFinal tapa={false} />
           </div>
 
           <div className="page cover">
