@@ -186,7 +186,7 @@
     img {
       position: absolute;
       right: -30px;
-      width: 170px;
+      width: 170px !important;
       height: auto;
       transform: rotate(6deg);
     }
@@ -209,7 +209,8 @@
       position: absolute;
       top: -25px;
       left: -20px;
-      height: 150px;
+      height: 150px !important;
+      width: auto !important;
       transform: rotate(-15deg);
     }
   }

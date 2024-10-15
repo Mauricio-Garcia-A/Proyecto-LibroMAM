@@ -76,7 +76,7 @@ export default function Libro() {
               numCap={capitulo1.chapterNumber}
               tituloCap={capitulo1.chapterTitle}
               subtituloCap={capitulo1.chapterSubtitle}
-              imageBG="/Proyecto-LibroMAM/images/bg-cap1.png"
+              imageBG={capitulo1.backgroundImage}
             />
           </div>
 
@@ -84,8 +84,11 @@ export default function Libro() {
             <div key={index + 8} className="page">
               <Pagina
                 titulo={page.title}
+                tipo={page.type}
                 num={index + 8}
                 parrafos={page.paragraphs}
+                imagen={page.images[0].url}
+                background={page.background}
               />
             </div>
           ))}

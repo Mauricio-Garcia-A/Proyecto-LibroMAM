@@ -4,6 +4,7 @@
       "chapterNumber": "Capítulo 1",
       "chapterTitle": "RN40, el inicio de un sueño",
       "chapterSubtitle": "El comienzo del camino, se inicia con un primer paso: SOÑARLO",
+      "backgroundImage": "/images/bg-cap1.png",
       "imagesChapter": [
         {
           "url": "/images/img-prueba.png",
@@ -13,39 +14,75 @@
       "pages": [
         {
           "title": "RN40",
+          "type": "1",
+          "background": "/images/bg-cap1-pg1.png",
           "paragraphs": [
-            "Voy a contarles una historia, una que hoy vino a la memoria, y aunque ocurrió hace ya un tiempo atrás, cada momento sigue aún presente, muy vivo en el subconsciente, disfrazado de recuerdo y grabado en la mente.",
-            "Me habían hablado de “Un Camino” que zigzaguea entre montañas, que con sus curvas unía el Celeste de los cielos del Norte, con el blanco de la nieve cordillerana al reflejo del gigantesco sol, hasta hundirse en el eterno Azul de los mares del Sur."
+            "¡Hola nuevamente!",
+            "Quisiera aclarar que este NO ES EL LIBRO “Diario de un Camino”. ",
+            "Lo que estás viendo se trata únicamente una muestra del Proyecto base del Libro, pensada prácticamente para ser una presentación de la versión ilustrada del libro en un entorno digital. Con el objetivo principal de apreciar el desarrollo y el diseño web asociado, enfocados tanto en los aspectos visuales como en la funcionalidad de la web; buscando con esto el propósito de destacar mis habilidades y experiencia en el área de desarrollo web y ser exhibido en mi portafolio profesional.",
+            "Pero, si deseas leer mi libro “DIARIO DE UN CAMINO”, no te preocupes. Puedes contactarme por el medio que prefieras (redes sociales, WhatsApp, etc.), y con gusto te pasaré el PDF o el enlace de la versión digital del libro para que lo disfrutes."
           ],
           "images": [
             {
-              "url": "/images/img-prueba.png",
+              "url": "/",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "title": "RN40",
+          "type": "2",
+          "background": "",
+          "paragraphs": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio facere numquam soluta quos asperiores sed, consequatur atque non, labore architecto magnam omnis a perferendis est! Est eligendi vitae nostrum laboriosam?",
+            "Lorem, ipsum dolor tetur adipisicing elit. Optio facere numquam soluta quos asperiores sed, consequatur atque non, labore architecto magnam omnis a perferendis est! Elaboriosam?"
+          ],
+          "images": [
+            {
+              "url": "/Proyecto-LibroMAM/images/img_prueba1.png",
+              "alt": "img-prueba1"
+            }
+          ]
+        },
+        {
+          "title": "RN40",
+          "type": "3",
+          "background": "",
+          "paragraphs": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio facere numquam soluta quos asperiores sed, consequatur atque non, labore architecto magnam omnis a perferendis est! Est eligendi vitae nostrum laboriosam?",
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio facere numquam soluta quos asperiores sed, consequatur atque non, labore architecto magnam omnis a perferendis est! Est"
+          ],
+          "images": [
+            {
+              "url": "/Proyecto-LibroMAM/images/img_prueba2.png",
               "alt": "img-prueba"
             }
           ]
         },
         {
           "title": "RN40",
+          "type": "2",
+          "background": "",
           "paragraphs": [
-            "Un camino con más historias que kilómetros, que recorre los rincones de mi patria desde La Quiaca hasta fin del mundo, repleto de paisajes que invitan a la imaginación en cada paso. Un camino único que te hace sentir que sos parte de un todo, aun estando en medio de la nada. Un camino sinuoso repleto de leyendas, que al recorrerlo te une en cuerpo y alma aún más a esta tierra, haciéndote uno con la Pachamama.",
-            "Una mítica ruta, cargada de misterios, de enseñanzas, de secretos. Un camino de retrospección, muy difíciles de recorrer, una emblemática y profunda senda que te lleva hasta los rincones más recónditos de tu alma, un embrujo largo del desierto hasta el alba."
-          ],
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. "          ],
           "images": [
             {
-              "url": "/images/img-prueba.png",
-              "alt": "img-prueba"
+              "url": "/Proyecto-LibroMAM/images/img_prueba3.png",
+              "alt": "img-prueba1"
             }
           ]
         },
         {
           "title": "RN40",
+          "type": "2",
+          "background": "",
           "paragraphs": [
-            "Una Ruta con 40 secretos y más de cinco mil kilómetros que te invitan a recorrerlos, y a vivir un viaje que va más allá a del tiempo y la geografía, conectando el pasado y el presente para llegar a ser uno solo con el camino.",
-            "Una ruta desafiante, con una vasta diversidad de paisajes, climas y culturas, que forjan una travesía eterna en el corazón de cualquier viajero que se atreva a recorrerla. Una ruta que une el cielo con la tierra, las altas cumbres con las profundidades del mar, en un camino sin principio ni final."
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio facere numquam soluta quos asperiores sed, consequatur atque non, labore architecto magnam omnis a perferendis est! Est eligendi vitae nostrum laboriosam?",
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio facere numquam soluta quos asperiores sed, consequatur atque non, labore architecto magnam omnis a perferendis est! Est"
           ],
           "images": [
             {
-              "url": "/images/img-prueba.png",
+              "url": "",
               "alt": "img-prueba"
             }
           ]
